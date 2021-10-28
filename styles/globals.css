@@ -1,3 +1,7 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
 html,
 body {
   padding: 0;
@@ -13,4 +17,22 @@ a {
 
 * {
   box-sizing: border-box;
+}
+
+.header {
+  margin-top: 0;
+}
+.header-image {
+  display: none;
+}
+
+/* md:absolute md:flex hidden */
+@media (min-height: 767px) and (min-width: 767px) {
+  .header {
+    margin-top: -9rem;
+  }
+  .header-image {
+    position: absolute;
+    display: flex;
+  }
 }
