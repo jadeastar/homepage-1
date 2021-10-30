@@ -1,4 +1,8 @@
-import { faPaintBrush, faUserShield } from "@fortawesome/pro-solid-svg-icons";
+import {
+  faPaintBrush,
+  faRunning,
+  faUserShield,
+} from "@fortawesome/pro-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
   faApple,
@@ -25,35 +29,18 @@ const Home = () => {
             Download for macOS
           </button>
         </div>
-        <img
-          className="bottom-0 ml-auto  header-image"
-          src="/preview.png"
-        />
+        <img className="bottom-0 ml-auto  header-image" src="/preview.png" />
       </div>
       <div className="flex flex-col items-center dark:bg-black dark:text-white">
         <div className="m-10 md:m-20 max-w-7xl">
           <div className="w-100">
             <h1 className="uppercase">Features</h1>
             <h1 className="text-3xl font-black">
-              Type something something type something something
+              World-class features. In a world-class browser.
             </h1>
           </div>
           <div className="w-100 flex flex-col items-center">
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-5 mt-5">
-              <div>
-                <div
-                  className={
-                    "p-3 text-lg w-11 h-11 rounded-full bg-red-500 text-white flex justify-center items-center"
-                  }
-                >
-                  <FontAwesomeIcon icon={faUserShield} />
-                </div>
-                <h1 className="font-black text-xl mt-1">Built in adblocking</h1>
-                <p>
-                  Block annoying ads and privacy invasive trackers with Skye's
-                  built in adblocker.
-                </p>
-              </div>
               <div>
                 <div
                   className={
@@ -62,9 +49,27 @@ const Home = () => {
                 >
                   <FontAwesomeIcon icon={faUserShield} />
                 </div>
-                <h1 className="font-black text-xl mt-1">Browser go brrrr</h1>
+                <h1 className="font-black text-xl mt-1">
+                  The Innatical ecosystem
+                </h1>
                 <p>
-                  Type something Type something Type something Type something
+                  Sign in with your Innatical ID and sync your bookmarks.
+                  Further integration with the rest of the Innatical ecosystem
+                  is being worked on.
+                </p>
+              </div>
+              <div>
+                <div
+                  className={
+                    "p-3 text-lg w-11 h-11 rounded-full bg-yellow-500 text-white flex justify-center items-center"
+                  }
+                >
+                  <FontAwesomeIcon icon={faRunning} />
+                </div>
+                <h1 className="font-black text-xl mt-1">Speed</h1>
+                <p>
+                  Skye is built to be fast and snappy, you won't need to
+                  compromise speed ever again.
                 </p>
               </div>
               <div>
@@ -104,7 +109,7 @@ const Home = () => {
           <div className="w-100">
             <h1 className="uppercase">Downloads</h1>
             <h1 className="text-3xl font-black">
-              Type something something type something something
+              Download the future of browsing
             </h1>
           </div>
           <div className="w-100">
