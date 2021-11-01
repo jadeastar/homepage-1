@@ -93,7 +93,7 @@ const Home = () => {
                 </div>
                 <h1 className="font-black text-xl mt-1">Speed</h1>
                 <p>
-                  Skye is built to be fast and snappy, you won't need to
+                  Skye is built to be fast and snappy, you won&apos;t need to
                   compromise speed ever again.
                 </p>
               </div>
@@ -107,8 +107,9 @@ const Home = () => {
                 </div>
                 <h1 className="font-black text-xl mt-1">Design</h1>
                 <p>
-                  With Safari inspired design, combined with Innatical's design
-                  language, Skye offers a simple, intuitive, and elegant UI.
+                  With Safari inspired design, combined with Innatical&apos;s
+                  design language, Skye offers a simple, intuitive, and elegant
+                  UI.
                 </p>
               </div>
               <div>
@@ -121,8 +122,8 @@ const Home = () => {
                 </div>
                 <h1 className="font-black text-xl mt-1">Built in adblocking</h1>
                 <p>
-                  Block annoying ads and privacy invasive trackers with Skye's
-                  built in adblocker.
+                  Block annoying ads and privacy invasive trackers with
+                  Skye&apos;s built in adblocker.
                 </p>
               </div>
             </div>
